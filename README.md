@@ -1,28 +1,32 @@
-# Location-data-for-Lepidoptera-monitoring-in-the-Sierra-Nevada
-Location metadata associated with butterfly monitoring program, run by M Forister, L Dyer, and A Smilanich at the University of Nevada, Reno. In collaboration with Z. Gompert, Utah State University and Art Shapiro, University of California, Davis. For project description, see: https://www.westernbutterflies.org/
+# Plant-data-for-Lepidoptera-monitoring-in-the-Sierra-Nevada
+Plant data associated with butterfly monitoring program, run by M Forister, L Dyer, and A Smilanich at the University of Nevada, Reno. In collaboration with Z. Gompert, Utah State University and Art Shapiro, University of California, Davis. For project description, see: https://www.westernbutterflies.org/
 
-#############################
-## coordinates_allSites.csv
-#############################
-
-Latitude and longitude for all 11 sites involved in the project; monitoring for 6 of the sites (Washington, Lang Crossing, Donner Pass, Castle Peak, Sierra Valley, and Mt Rose) is based out of the University of Nevada, Reno; monitoring of the other 5 sites is carried out by Art Shapiro (see website above for more details).
-
-Many activities are carried out at each site, including monitoring for adult butterflies and caterpillars, as well as visiting plant stations to observe flowers. Single coordinates are included in this file, not to represent the breadth of activity at each site, but to locate the sites along the east-west transect that comprises the entirety of the project.  These coordinates are suitable, for example, for generating weather data in the vicinity of each site.
-
+Details below for the following data file:
+plants_2023to2024.csv
 
 
 #############################
-## coordinates_plantStations.csv
+## plants_2023to2024.csv
 #############################
 
-These are coordinates locating 2 x 10 meter plots within which plant observations have been recorded (provided in separate data file). Columns of data are detailed below.
+These are counts of flowers of 336 species of plants at fixed plots ("stations") at our six montane sites, observed biweekly during the flowering season, starting in 2023. Columns of data are detailed below.
 
-site_name: one of six montane sites where plant observations have been recorded.
+Day: day of the month.
 
-zone: habitat breakdown by site, with names mostly arbitrary (e.g., "1Valley") and should be treated as an unordered, categorical variable.
+Month: month of observation.
 
-station: individual locations where 2 x 10 meter plots were placed, within which flowers were counted; note that names of stations are meant as convenient handles and should only be used to link to spatial data (coordinates provided in another data file).
+Year: year of observation.
 
-latitude, longitude: as the names indicate.
+site_name: one of six locations.
+
+Zone: habitat breakdown by site, with names mostly arbitrary (e.g., "1Valley") and should be treated as an unordered, categorical variable.
+
+Station: individual locations where 2 x 10 meter plots were placed, within which flowers were counted; note that names of stations are meant as convenient handles and should only be used to link to spatial data (coordinates provided in another data file).
+
+species: identity of plant species being observed.
+
+inflorescences: counts of flowers that are open (accessible to flower-visiting insects).
+
+Observer: initials of individual recording observations.
 
 
